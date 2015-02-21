@@ -1,0 +1,222 @@
+body{
+
+}
+
+
+.menu {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-family: Georgia;
+}
+.menu li {
+    list-style: none;
+    float: left;
+    height: 33px;
+    padding: 0;
+    margin: 0;
+    width: 150px;
+    text-align: center;
+    background: #171717;
+    position: relative;
+    padding-top: 12px;
+}
+.menu li ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 150px;
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 45px;
+}
+.menu li ul li {
+    float: none;
+    height: 33px;
+    margin: 0;
+    width: 150px;
+    text-align: center;
+    background: #7F7F7F;
+}
+.menu li a {
+    display: block;
+    width: 150px;
+    height: 33px;
+    color: #fff;
+    text-decoration: none;
+}
+.menu li:hover ul, .menu li.jshover ul {
+    display: block;
+}
+.menu li:hover, .menu li.jshover {
+    background: #424242;
+}
+
+.menuD {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-family: Georgia;
+}
+.menuD li {
+    list-style: none;
+    float: left;
+    height: 33px;
+    padding: 0;
+    margin: 0;
+    width: 150px;
+    text-align: center;
+    background: #4d54ea;
+    position: relative;
+    padding-top: 12px;
+}
+.menuD li a {
+    display: block;
+    width: 150px;
+    height: 33px;
+    color: #fff;
+    text-decoration: none;
+}
+.menuD li:hover ul, .menuD li.jshover ul {
+    display: block;
+}
+.menuD li:hover, .menuD li.jshover {
+    background: #2bc521;
+}
+
+.close {
+    width: 32px;
+    height: 32px;
+    float: right;
+}
+
+#menuB{
+    background: #abb5a9;
+    width: 1280px;
+    height: 45px;
+    margin: 0 auto;
+}
+
+#menuD{
+    height: 45px;
+    width: 500px;
+    overflow: hidden;
+}
+#left{
+    float: left;
+    cursor: pointer;
+}
+#right{
+    /*float: right;*/
+    cursor: pointer;
+}
+
+#contentView{
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-top: 100px;
+}
+
+
+#scroll {
+    width:600px;
+    height:45px;
+    /*margin:0px auto;*/
+    background: #0028e0;
+    overflow:hidden;
+    /*float: right;*/
+    /*position: relative;*/
+    /*clear: right;*/
+}
+#scroll ul {
+    float:left;
+    margin-right:-999em;
+    white-space:nowrap;
+    list-style:none;
+}
+#scroll li {
+    margin-left:25px;
+    text-align:center;
+    float:left;
+    display:inline;
+}
+
+#scroll li:hover{
+    background: green;
+    height: 45px;
+    margin-top: -16px;
+    padding-top: 16px;
+}
+
+#scroll ul img {
+    border:0;
+    display:block;
+    /*border:1px solid #A3CBE0;*/
+    width: 16px;
+    height: 16px;
+    float: right;
+    margin-top: -12px;
+    margin-right: 30px;
+}
+#scroll a:active img, #scroll a:focus img, #scroll a:hover img {
+    /*border:1px solid #000;*/
+}
+#scroll a {
+    text-decoration:none;
+    font-weight:bold;
+    color:#000;
+}
+/*#scroll a:active, #scroll a:focus, #scroll a:hover {*/
+    /*color:#FFF;*/
+    /*display: block;*/
+    /*height: 45px;*/
+    /*background: green;*/
+/*}*/
+#scroll span {
+    /*padding:5px 0 0;*/
+    /*display:block;*/
+    font-size: 16px;
+}
+
+.next{
+    position: fixed;
+    cursor: pointer;
+    display: block;
+    background: #3bff00;
+    height: 45px;
+    width: 25px;
+    margin-left: 580px;
+}
+
+.next img{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.prev{
+    position: fixed;
+    cursor: pointer;
+    display: block;
+    background: #3bff00;
+    height: 45px;
+    width: 25px;
+    display: block;
+}
+
+.prev img {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.dMenu{
+    width: 100px;
+}
+
+#spinner{
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+.static{
+    cursor: pointer;
+}

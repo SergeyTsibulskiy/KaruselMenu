@@ -1,0 +1,86 @@
+{
+    "menuStaticBean":[
+        {
+            "id":1,
+            "a":"Пункт 1",
+            "content":"bfakdsadfbadshbabhjhafjfdafadfa",
+            "ul":null
+        },
+        {
+            "id":4,
+            "a":"Пункт 2",
+            "content":"fdasfdsfadsfasd",
+            "ul":[
+                {
+                    "id":2,
+                    "a":"ПодПункт 1",
+                    "content":"12322134124",
+                    "ul":null
+                },
+                {
+                    "id":3,
+                    "a":"ПодПункт 2",
+                    "content":"3432r23rq3rq2r",
+                    "ul":null
+                }
+            ]
+        }
+    ],
+    "menuDynamicBean":[
+        {
+            "id":2,
+            "title":"Dynamic2",
+            "content":"32432432423423423423423432"
+        },
+        {
+            "id":48,
+            "title":"qqqqq",
+            "content":"qqqq"
+        },
+        {
+            "id":89,
+            "title":"dfe",
+            "content":"fewwef"
+        },
+        {
+            "id":92,
+            "title":"ppp",
+            "content":"pppfghf"
+        },
+        {
+            "id":93,
+            "title":"Test",
+            "content":"dbhsb"
+        },
+        {
+            "id":97,
+            "title":"fdsfa",
+            "content":"wffweff wfeqeewge"
+        },
+        {
+            "id":98,
+            "title":"Test2`",
+            "content":"vndfjkvsdkajba"
+        },
+        {
+            "id":99,
+            "title":"Test3",
+            "content":"<b>fsadfadsf</b>"
+        },
+        {
+            "id":101,
+            "title":"Test4",
+            "content":"bdsfkabfhsdbvdsvsdqwd"
+        },
+        {
+            "id":102,
+            "title":"dwqd",
+            "content":"dqwd"
+        },
+        {
+            "id":103,
+            "title":"wfe",
+            "content":"gergw"
+        }
+    ]
+}

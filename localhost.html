@@ -1,0 +1,53 @@
+<html>
+<head>
+    <title></title>
+    <link href="style/style.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+    <script src="js/menu.js" type="text/javascript"></script>
+    <script src="js/myScroll.js" type="text/javascript"></script>
+
+    
+</head>
+
+<body>
+
+<div style="text-align: center">
+    <form name="addItemMenu" method="POST" action="/add">
+        <input hidden="hidden">
+        <label>Title</label><input id="title" type="text">
+        <label>Content</label><textarea id="content"></textarea>
+        <input type="submit" value="Add">
+    </form>
+</div>
+
+
+<div id="menuB">
+    <div id="widthStatic">
+        <ul id="menuStatic" class="menu">
+
+        </ul>
+    </div>
+    <div id="scroll">
+        <span class="prev"> <img src="images/thin_left_arrow_333.png" alt="prev" title="previous"
+                                 onclick="myScrollToLeft()"/> </span>
+        <ul id="placeForDMenu">
+
+        </ul>
+        <span class="next"> <img src="images/thin_right_arrow_333.png" alt="next" title="next"
+                                 onclick="myScrollToRight()"/> </span>
+    </div>
+
+
+</div>
+<div id="contentView">
+
+</div>
+
+
+<div id="spinner">
+ <img src="images/spiner.gif">
+</div>
+
+
+</body>
+</html>
