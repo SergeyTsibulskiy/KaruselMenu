@@ -10,7 +10,7 @@ var Menu = function () {
     var $submit = $("input[type='submit']");
 
     self.init = function () {
-        $spinner.css("display", "none");
+        $spinner.hide();
         self.getMenu();
         self.calcWidth();
         self.handleMenuD();
