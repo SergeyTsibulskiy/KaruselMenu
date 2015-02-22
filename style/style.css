@@ -12,14 +12,14 @@ body{
 .menu li {
     list-style: none;
     float: left;
-    height: 33px;
-    padding: 0;
+    height: 28px;
     margin: 0;
-    width: 150px;
+    width: 135px;
     text-align: center;
-    background: #171717;
+    background: #eaf0f4;
     position: relative;
     padding-top: 12px;
+    border: 1px solid #cccccc;
 }
 .menu li ul {
     list-style: none;
@@ -35,22 +35,23 @@ body{
     float: none;
     height: 33px;
     margin: 0;
-    width: 150px;
     text-align: center;
-    background: #7F7F7F;
+    top: -3px;
+    left: -1px;
+    background: #fff;
 }
 .menu li a {
     display: block;
     width: 150px;
     height: 33px;
-    color: #fff;
+    color: black;
     text-decoration: none;
 }
 .menu li:hover ul, .menu li.jshover ul {
     display: block;
 }
 .menu li:hover, .menu li.jshover {
-    background: #424242;
+    background: #e6e6e6;
 }
 
 .menuD {
@@ -62,20 +63,19 @@ body{
 .menuD li {
     list-style: none;
     float: left;
-    height: 33px;
-    padding: 0;
+    height: 30px;
     margin: 0;
-    width: 150px;
+    width: 160px;
     text-align: center;
-    background: #4d54ea;
+    background: #ffffd5;
     position: relative;
     padding-top: 12px;
 }
 .menuD li a {
     display: block;
-    width: 150px;
-    height: 33px;
-    color: #fff;
+    /*width: 160px;*/
+    /*height: 30px;*/
+    color: black;
     text-decoration: none;
 }
 .menuD li:hover ul, .menuD li.jshover ul {
@@ -92,14 +92,14 @@ body{
 }
 
 #menuB{
-    background: #abb5a9;
+    background: #ffffff;
     width: 1280px;
-    height: 45px;
+    height: 30px;
     margin: 0 auto;
 }
 
 #menuD{
-    height: 45px;
+    height: 30px;
     width: 500px;
     overflow: hidden;
 }
@@ -121,32 +121,34 @@ body{
 
 #scroll {
     width:600px;
-    height:45px;
-    /*margin:0px auto;*/
-    background: #0028e0;
+    height:40px;
+    background: #ffffd5;
     overflow:hidden;
-    /*float: right;*/
-    /*position: relative;*/
-    /*clear: right;*/
+    border-bottom: 1px solid #dddddd;
+    border-top: 1px solid #dddddd;
 }
 #scroll ul {
     float:left;
     margin-right:-999em;
     white-space:nowrap;
     list-style:none;
+    margin-left: -15px;
 }
 #scroll li {
-    /*margin-left:25px;*/
-    text-align:center;
-    float:left;
-    display:inline;
+    text-align: center;
+    float: left;
+    height: 30px;
+    margin-top: -16px;
+    padding-top: 10px;
+    display: inline;
+    border-left: 1px solid #cccccc;
 }
 
 #scroll li:hover{
-    background: green;
-    height: 45px;
+    background: #e6e6e6;
+    height: 33px;
     margin-top: -16px;
-    padding-top: 16px;
+    padding-top: 10px;
 }
 
 #scroll ul img {
@@ -156,26 +158,19 @@ body{
     width: 16px;
     height: 16px;
     float: right;
-    margin-top: -17px;
-    margin-right: 0px;
+
+    /*margin-top: -12px;*/
+    /*margin-right: 30px;*/
 }
 #scroll a:active img, #scroll a:focus img, #scroll a:hover img {
     /*border:1px solid #000;*/
 }
 #scroll a {
     text-decoration:none;
-    font-weight:bold;
-    color:#000;
+    color: black;
 }
-/*#scroll a:active, #scroll a:focus, #scroll a:hover {*/
-    /*color:#FFF;*/
-    /*display: block;*/
-    /*height: 45px;*/
-    /*background: green;*/
-/*}*/
+
 #scroll span {
-    /*padding:5px 0 0;*/
-    /*display:block;*/
     font-size: 16px;
 }
 
@@ -183,10 +178,11 @@ body{
     position: fixed;
     cursor: pointer;
     display: block;
-    background: #3bff00;
-    height: 45px;
+    background: #ffffd5;
+    height: 40px;
     width: 25px;
-    margin-left: 580px;
+    margin-top: -1px;
+    border: 1px solid #cccccc;
 }
 
 .next img{
@@ -194,14 +190,15 @@ body{
     margin-left: 5px;
 }
 
-.prev{
+.prev {
     position: fixed;
     cursor: pointer;
     display: block;
-    background: #3bff00;
-    height: 45px;
+    background: #ffffd5;
+    height: 40px;
     width: 25px;
-    display: block;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
 }
 
 .prev img {
@@ -219,4 +216,20 @@ body{
 
 .static{
     cursor: pointer;
+}
+
+.input{
+    top: 0px;
+    float: left;
+}
+
+.content{
+    top: 0px;
+    float: left;
+}
+
+.arrow{
+    margin-top: -25px;
+    float: right;
+    margin-right: 10px;
 }

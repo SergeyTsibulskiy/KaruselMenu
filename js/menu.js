@@ -113,8 +113,8 @@ var Menu = function () {
         var widthStaticMenu = w * c;
         var dymanicW = widthBlockforMenu - widthStaticMenu;
 
-        $scrollDiv.css("width", dymanicW);
-        $next.css("margin-left", dymanicW);
+        $scrollDiv.css("width", dymanicW - 5);
+        $next.css("margin-left", dymanicW - 5);
     };
 
     self.addItem = function (item) {
