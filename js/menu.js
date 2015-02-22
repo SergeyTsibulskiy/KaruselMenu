@@ -40,7 +40,6 @@ var Menu = function () {
         $.each(dataMenu, function (index, value) {
             var $li = $("<li />").addClass("static");
             var $a = $("<a />").attr("id", value.id).html(value.a);
-            var $ul = $("<ul />");
             $li.append($a);
             $menuStatic.append($li);
             if (value.ul != null) {
