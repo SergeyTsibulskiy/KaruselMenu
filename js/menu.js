@@ -8,6 +8,9 @@ var Menu = function () {
     var $spinner = $("div#spinner");
     var $scrollDiv = $("div#scroll");
     var $submit = $("input[type='submit']");
+    var $title = $("#title");
+    var $content = $('#content');
+    var $next = $("span.next");
 
     self.init = function () {
         $spinner.hide();
@@ -112,7 +115,7 @@ var Menu = function () {
         var dymanicW = widthBlockforMenu - widthStaticMenu;
 
         $scrollDiv.css("width", dymanicW);
-        $("span.next").css("margin-left", dymanicW - 20);
+        $next.css("margin-left", dymanicW);
     };
 
     self.addItem = function (item) {
@@ -131,16 +134,16 @@ var Menu = function () {
         $submit.click(function() {
             var size = dataMenuD.length;
             var lastId = dataMenuD[size - 1].id;
-
             var item = {id: lastId + 1};
-            item.title = $("#title").val();
-            item.content = $('#content').val();
+            item.title = $title.val();
+            item.content = $content.val();
 
             dataMenuD.push(item);
             self.addItem(item);
 
-            $("#title").val("");
-            $("#content").val("");
+            $next.find("img").show();
+            $title.val("");
+            $content.val("");
         });
     };
 

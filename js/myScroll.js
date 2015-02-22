@@ -37,7 +37,7 @@ var Scroll = function () {
             var xNext = 0;
             $(function () {
                 xNext = x + step;
-                if (xNext + step >= maxW) {
+                if (xNext >= maxW) {
                     $scroll.animate({scrollLeft: xNext});
                     $imgNext.hide();
                 } else {
